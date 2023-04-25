@@ -7,12 +7,23 @@ Set-up Locally
 1. Clone Github Repo in perfered directory
 2. Cd into repository
 3. Add .env file with CLIENT_TOKEN='*insert personal bot token*'
+4. Run npm install
+5. Run node discordbot.js
+6. Interact with bot in Discord freely
+7. To stop bot press ctrl + c
+
+Set-up Through Docker
+---------------------
+1. Clone Github Repo in perfered directory
+2. Cd into repository
+3. Add .env file with CLIENT_TOKEN='*insert personal bot token*'
 4. Run the command: Docker build -t discordbot
 5. Run the command: Docker run -d --name discordbot discordbot
 6. Interact with bot in Discord freely
 7. To stop bot run the command: Docker rm -f discordbot
 
-Set up through AWS
+
+Set up Through AWS
 ------------------
 1. Create EC2 instance with AWS with vockey pairing
 2. SSH to instance 
